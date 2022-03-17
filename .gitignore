@@ -1,0 +1,12 @@
+# ignore all logs
+*.log
+
+# baco de dados
+*.sqlite3
+
+#arguivos de copilação do projeto
+.pyc
+.cpython-39.pyc
+
+#pasta
+__pycache__/
