@@ -1,16 +1,41 @@
 {% extends "model_page.html" %}
 
 {% block content %}
-    <h2>Agendamentos</h2>
-    <a href="evento/">
-        <button type="button">Novo Evento</button>
-    </a>
-    <ul style="font-size: 18px">
+
+    
+
+
+    <table id="tabela_superior">
+        <tr>
+            <th>
+                <h2>Agendamentos</h2>
+            </th>
+            <th align="right">    
+                <a href="evento/">
+                    <button type="button" class="button button1">Novo Evento</button>
+                </a>
+            </th>
+            </tr>
+    </table>
+    <table id="customers">
+        <tr>
+          <th>Titulo</th>
+          <th>Data e Hora</th>
+          <th>Opções</th>
+        </tr>
         {%for evento in eventos %}
-            <li>{{ evento.titulo }} - {{ evento.get_data_evento }} 
-                {<a href="evento/?id={{ evento.id }}">Editar </a> / 
-                <a href="evento/delete/{{ evento.id }}">Excluir</a>}
-            </li>
+        <tr>
+            <td>{{ evento.titulo }}</td>
+            <td>{{ evento.get_data_evento }}</td>
+            <td style="width: 15%;">
+                <a href="evento/?id={{ evento.id }}">
+                    <button class="button button2">Editar</button>
+                </a>
+                <a href="evento/delete/{{ evento.id }}">
+                    <button class="button button3">Excluir</button>
+                </a>
+            </td>
+        </tr>
         {% endfor %}
-    </ul>
+      </table>
 {% endblock %}
