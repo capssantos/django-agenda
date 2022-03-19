@@ -29,4 +29,14 @@ Aqui está o link para quem quiser fazer o curso, mas é necessário ter o bási
 </ul>
 
 <h2>Evolução</h2><br />
-<img alt="GIF" src="https://github.com/capssantos/django-agenda/blob/main/img/Login_Estilizado.png" width="800px" />
+
+<h3>Tela de Login Básico</h3>
+<img alt="Tela de Login Sem Estilização" src="https://github.com/capssantos/django-agenda/blob/main/img/Login_Basico.jpeg" width="800px" />
+<h3>Tela de Login Após Estilização</h3>
+<img alt="Tela de Login Com Estilização" src="https://github.com/capssantos/django-agenda/blob/main/img/Login_Estilizado.png" width="800px" />
+<h3>Tela da Lista de Agendamentos Básico</h3>
+<img alt="Tela de Agendamentos Sem Estilização" src="https://github.com/capssantos/django-agenda/blob/main/img/Agenda_Basico.jpeg" width="800px" />
+<h3>Tela da Lista de Agendamentos Estilizada</h3>
+<img alt="Tela de Agendamentos Com Estilização" src="https://github.com/capssantos/django-agenda/blob/main/img/Agenda_Estilizada.png" width="800px" />
+<h3>Tela de Registro de Eventos Básico</h3>
+<img alt="Tela de Registro de Eventos Sem Estilização" src="https://github.com/capssantos/django-agenda/blob/main/img/Evento_Basico.jpeg" width="800px" />
