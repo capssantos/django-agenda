@@ -5,29 +5,23 @@
     </head>
     <body>
         <main>
-        <div class="container">
-            <div class="box">
-                
-                <h1 style="text-align: center;">Login</h1>
-
-                <form action="submit" method="post">{% csrf_token %}
-                    <div align="center" class="area-do-usuario">
-                        <input type="text" id="area-do-usuario" name="username" placeholder="Usuario">
-                        <input type="password" id="area-do-usuario" name="password" placeholder="Senha">
-                        
-                    </div>
-                    <button type="submit">Entrar</button>
-                </form> 
-        
-                {% for message in messages %}
-                    <div align="center" class="alerta">
-                        <strong>Erro </strong>{{ message }}
-                    </div>
-                {% endfor %}
-
+            <div class="container">
+                <div class="box">
+                    <h1 style="text-align: center;">Login</h1>
+                    <form action="submit" method="post">{% csrf_token %}
+                        <div align="center" class="area-do-usuario">
+                            <input type="text" id="area-do-usuario" name="username" placeholder="Usuario">
+                            <input type="password" id="area-do-usuario" name="password" placeholder="Senha">
+                        </div>
+                        <button type="submit">Entrar</button>
+                    </form> 
+                    {% for message in messages %}
+                        <div align="center" class="alerta">
+                            <strong>Erro </strong>{{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
-        </div>
-    </main>
-
+        </main>
     </body> 
 </html>
