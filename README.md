@@ -29,4 +29,4 @@ Aqui está o link para quem quiser fazer o curso, mas é necessário ter o bási
 </ul>
 
 <h2>Evolução</h2><br />
-![jxe2ayV.png](https://i.imgur.com/jxe2ayV.png)]
+![Login_Estilizado.png](https://raw.githubusercontent.com/capssantos/django-agenda/img/Login_Estilizado.png]
