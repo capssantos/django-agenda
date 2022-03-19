@@ -32,3 +32,5 @@ Aqui está o link para quem quiser fazer o curso, mas é necessário ter o bási
 [img]https://i.imgur.com/jxe2ayV.png[/img]
 
 [Imgur](https://imgur.com/jxe2ayV)
+
+![jxe2ayV.png](https://i.imgur.com/jxe2ayV.png]
