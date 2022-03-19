@@ -29,4 +29,4 @@ Aqui está o link para quem quiser fazer o curso, mas é necessário ter o bási
 </ul>
 
 <h2>Evolução</h2><br />
-[img]<blockquote class="imgur-embed-pub" lang="en" data-id="a/uYHCQGJ"  ><a href="//imgur.com/a/uYHCQGJ">Programacao</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>[/img]
+<img src="https://imgur.com/jxe2ayV" />
